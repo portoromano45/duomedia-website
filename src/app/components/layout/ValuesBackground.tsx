@@ -5,47 +5,52 @@ import { motion } from "framer-motion";
 export function ValuesBackground() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none bg-background">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(var(--accent-rgb),0.35),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(var(--accent-rgb),0.5),transparent_70%)]" />
       
-      {/* Abstract foundation/pillar shapes */}
-      <div className="absolute inset-0 opacity-70">
-        {[...Array(5)].map((_, i) => (
+      {/* Maximum visibility pillars */}
+      <div className="absolute inset-0 opacity-100">
+        {[...Array(6)].map((_, i) => (
           <motion.div
             key={`pillar-${i}`}
             initial={{ opacity: 0, scaleY: 0 }}
             animate={{ 
-              opacity: [0.3, 0.7, 0.3],
-              scaleY: [0.8, 1.2, 0.8]
+              opacity: [0.5, 0.9, 0.5],
+              scaleY: [0.9, 1.4, 0.9]
             }}
-            transition={{ duration: 12 + i * 2, repeat: Infinity, delay: i * 1.5, ease: "easeInOut" }}
-            className="absolute bottom-0 border-2 border-accent/70 bg-accent/15 backdrop-blur-sm origin-bottom"
+            transition={{ duration: 10 + i * 1.5, repeat: Infinity, delay: i, ease: "easeInOut" }}
+            className="absolute bottom-0 border-4 border-accent bg-accent/30 backdrop-blur-md origin-bottom shadow-[0_0_30px_rgba(var(--accent-rgb),0.6)]"
             style={{ 
-               width: `${40 + (i % 3) * 20}px`, 
-               height: `${30 + (i * 15)}%`,
-               left: `${15 + (i * 20)}%`
+               width: `${60 + (i % 3) * 30}px`, 
+               height: `${40 + (i * 15)}%`,
+               left: `${10 + (i * 16)}%`
             }}
           />
         ))}
 
-        {/* Gentle upward floating particles / seeds of growth */}
-        {[...Array(15)].map((_, i) => (
+        {/* Huge, bright floating glowing orbs */}
+        {[...Array(20)].map((_, i) => (
           <motion.div
             key={`spark-${i}`}
             animate={{ 
               y: ["100vh", "-20vh"],
               x: [
-                  `${20 + (i % 5) * 15}vw`, 
-                  `${20 + (i % 5) * 15 + (i % 2 === 0 ? 5 : -5)}vw`
+                  `${10 + (i % 6) * 15}vw`, 
+                  `${10 + (i % 6) * 15 + (i % 2 === 0 ? 10 : -10)}vw`
               ],
-              opacity: [0, 1, 0]
+              opacity: [0, 1, 0],
+              scale: [1, 2, 1]
             }}
-            transition={{ duration: 15 + Math.random() * 10, repeat: Infinity, delay: Math.random() * 5 }}
-            className="absolute w-2 h-2 rounded-full bg-accent shadow-[0_0_12px_rgba(var(--accent-rgb),1)]"
+            transition={{ duration: 10 + Math.random() * 8, repeat: Infinity, delay: Math.random() * 3 }}
+            className="absolute rounded-full bg-accent shadow-[0_0_20px_rgba(var(--accent-rgb),1),0_0_40px_rgba(var(--accent-rgb),1)]"
+            style={{
+              width: `${10 + Math.random() * 10}px`,
+              height: `${10 + Math.random() * 10}px`,
+            }}
           />
         ))}
       </div>
 
-      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_0%,rgba(var(--background-rgb),0.7)_70%,var(--background)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_0%,rgba(var(--background-rgb),0.5)_50%,var(--background)_100%)]" />
     </div>
   );
 }
