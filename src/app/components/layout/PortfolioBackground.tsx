@@ -5,44 +5,65 @@ import { motion } from "framer-motion";
 export function PortfolioBackground() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none bg-background">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(var(--accent-rgb),0.5),transparent_70%)]" />
+      {/* Base Warm Glow */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(var(--accent-rgb),0.3),transparent_70%)]" />
       
-      {/* Maximum visibility frames */}
-      <div className="absolute inset-0 opacity-100">
-        {[...Array(10)].map((_, i) => (
+      {/* Architectural Grid */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(var(--border-rgb),0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(var(--border-rgb),0.3)_1px,transparent_1px)] bg-[size:8rem_8rem]" />
+
+      {/* 1. Abstract Window Fragments - Gallery style for Portfolio */}
+      <div className="absolute inset-0 opacity-70">
+        {[...Array(6)].map((_, i) => (
           <motion.div
-            key={`frame-${i}`}
+            key={`web-${i}`}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ 
-              opacity: [0.5, 1, 0.5],
-              scale: [0.95, 1.1, 0.95],
-              rotate: [i % 2 === 0 ? -4 : 4, i % 2 === 0 ? 4 : -4]
+              opacity: [0.4, 0.8, 0.4],
+              scale: [0.95, 1.05, 0.95],
+              rotate: [i % 2 === 0 ? -3 : 3, i % 2 === 0 ? 3 : -3]
             }}
-            transition={{ duration: 8 + i * 1.5, repeat: Infinity, delay: i }}
-            className="absolute border-4 border-accent bg-accent/30 backdrop-blur-lg shadow-[0_0_40px_rgba(var(--accent-rgb),0.5)] rounded-2xl"
+            transition={{ duration: 10 + i * 2, repeat: Infinity, delay: i * 1.5 }}
+            className="absolute border-2 border-accent/60 bg-accent/15 backdrop-blur-[6px] shadow-2xl shadow-accent/20"
             style={{ 
-               width: `${200 + (i % 3) * 120}px`, 
-               height: `${250 + (i % 2) * 100}px`,
-               left: `${(i * 12) % 85}%`,
-               top: `${(i * 15) % 80}%`
+              width: `${180 + (i % 3) * 80}px`, 
+              height: `${240 + (i % 2) * 60}px`,
+              left: `${(i * 18) % 85}%`,
+              top: `${(i * 15) % 75}%`
             }}
           >
-             <div className="absolute inset-4 border-2 border-accent/80 rounded-xl" />
+            <div className="absolute inset-3 border border-accent/40 bg-accent/5 backdrop-blur-sm" />
           </motion.div>
         ))}
-
-        {/* Intensely bright spotlight */}
-        <motion.div
-           animate={{
-               x: ["-100%", "200%"],
-               opacity: [0, 1, 0]
-           }}
-           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-           className="absolute top-0 bottom-0 w-1/2 bg-gradient-to-r from-transparent via-accent to-transparent skew-x-[-30deg] mix-blend-screen"
-        />
       </div>
 
-      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_0%,rgba(var(--background-rgb),0.6)_60%,var(--background)_100%)]" />
+      {/* 3. Geometric Clusters & Star Emoji - Adjusted for Portfolio */}
+      <div className="absolute top-[15%] left-[10%] opacity-60">
+        {/* Sparkle/Star Emoji for Portfolio */}
+        <motion.div 
+          animate={{ scale: [1, 1.4, 1], rotate: [0, 90, 180], opacity: [0.6, 1, 0.6] }}
+          transition={{ duration: 5, repeat: Infinity }}
+          className="absolute top-0 left-0 text-7xl text-accent drop-shadow-[0_0_40px_rgba(var(--accent-rgb),0.8)] select-none"
+        >
+          ✨
+        </motion.div>
+      </div>
+
+      {/* 4. Elegant Flowing Path - Adjusted for Portfolio */}
+      <svg className="absolute w-full h-full opacity-50">
+        <motion.path
+          d="M 2000,200 C 1600,600 1400,100 1000,500 C 600,900 400,400 -100,800"
+          fill="none"
+          stroke="rgba(var(--accent-rgb), 0.9)"
+          strokeWidth="4"
+          strokeDasharray="20 10"
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+        />
+      </svg>
+
+      {/* Bottom fade to content */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background" />
     </div>
   );
 }
