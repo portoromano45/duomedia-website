@@ -1,0 +1,6 @@
+/.agent
+/.env
+/.tmp
+/directives
+/execution
+/gemini.md

@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Warm / Premium aesthetics palette */
+  --color-primary-50: #fdf8f6;
+  --color-primary-100: #f2e8e5;
+  --color-primary-200: #eaddd7;
+  --color-primary-300: #e0cec7;
+  --color-primary-400: #d2bab0;
+  --color-primary-500: #a78b7d;
+  --color-primary-600: #977665;
+  --color-primary-700: #846353;
+  --color-primary-800: #715343;
+  --color-primary-900: #433028;
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+
+  /* Fonts */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia;
+}
+
+@layer base {
+  :root {
+    --background: #fcfbfa; /* Off-white warm */
+    --foreground: #2d2926; /* Dark warm gray */
+    --card: #ffffff;
+    --card-foreground: #2d2926;
+    --border: #f2e8e5;
+    --accent: #d2bab0;
+    --accent-foreground: #433028;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: #1a1716; /* Deep brown-black */
+    --foreground: #fcfbfa;
+    --card: #24201e;
+    --card-foreground: #fcfbfa;
+    --border: #332d2b;
+    --accent: #a78b7d;
+    --accent-foreground: #fdf8f6;
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+    transition:
+      background-color 0.4s ease,
+      color 0.4s ease;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .shiny-crumpled-hologram {
+    background:
+      radial-gradient(circle at 50% 50%, var(--accent) 0%, transparent 50%),
+      radial-gradient(
+        circle at 80% 20%,
+        var(--color-primary-300) 0%,
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 20% 80%,
+        var(--color-primary-500) 0%,
+        transparent 40%
+      );
+    background-size: 200% 200%;
+    animation: hologram 15s ease infinite alternate;
+    opacity: 0.15;
+    mix-blend-mode: multiply;
+  }
+
+  .dark .shiny-crumpled-hologram {
+    opacity: 0.1;
+    mix-blend-mode: screen;
+  }
+}
+
+@keyframes hologram {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}

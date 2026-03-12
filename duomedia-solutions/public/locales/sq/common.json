@@ -1,0 +1,526 @@
+{
+  "nav": {
+    "home": "Kryefaqja",
+    "about": "Rreth",
+    "services": "Shërbimet",
+    "values": "Vlerat",
+    "portfolio": "Portofoli",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "hero": {
+      "headline": "Krijo me Qëllim. Rrit me Pasion.",
+      "subheadline": "Projektojmë komunikim autentik digjital — në social, zë dhe web. Pa zhurmë. Vetëm kuptim.",
+      "cta1": "Fillo një bisedë",
+      "cta2": "Shiko punët tona"
+    },
+    "whoWeAre": {
+      "heading": "Ne jemi DuoMedia",
+      "p1": "DuoMedia Solutions nuk është një agjenci. Ne jemi një kolektiv i kuruar i kreativëve të pavarur.",
+      "p2": "Nuk bëjmë template të gatshëm. Nuk shtojmë zhurmë.",
+      "p3": "Dëgjojmë. Kuptojmë. Krijojmë kuptim.",
+      "p4": "Çdo projekt fillon me një bisedë — dhe rritet me qëllim.",
+      "stats": [
+        "5+ vite eksperiencë",
+        "50+ projekte të realizuara",
+        "30+ klientë të kënaqur",
+        "15+ freelancerë në kolektiv"
+      ]
+    },
+    "whatWeDo": {
+      "heading": "Çfarë Bëjmë",
+      "subheading": "Pesë shërbime. Mundësi të pafundme.",
+      "services": [
+        {
+          "title": "Social Media",
+          "description": "Pranë strategjike, e qëllimshme. Nuk postojmë thjesht — ndërtojmë komunitete.",
+          "details": "Strategji përmbajtjeje, menaxhim komuniteti, analitikë, reklama të paguara"
+        },
+        {
+          "title": "Copywriting",
+          "description": "Fjalë me qëllim. Copy që konverton, tregon histori dhe ndihet njerëzore.",
+          "details": "Tekste për ueb, postime në blog, newsletter, zhvillim i zërit të markës"
+        },
+        {
+          "title": "Content Creation",
+          "description": "Vizuale që flasin qetë — dhe qartë. Fotografi, video dhe dizajn.",
+          "details": "Fotografi produktesh, video për marka, përmbajtje rrjetesh sociale, dizajn grafik"
+        },
+        {
+          "title": "Projekte Voice-Over",
+          "description": "Zëra në harmoni me kuptimin. Komercial, narrativ dhe zë brandi.",
+          "details": "Reklama, video shpjeguese, libra audio, sisteme IVR"
+        },
+        {
+          "title": "Websites",
+          "description": "Strukturë e pastër. Mesazh i qartë. Website që funksionojnë dhe ndihen mirë.",
+          "details": "Dizajn i personalizuar, zhvillim i përshtatshëm, optimizim SEO, mirëmbajtje"
+        }
+      ]
+    },
+    "featuredWork": {
+      "heading": "Punë të Përzgjedhura",
+      "subheading": "Të ndërtuara me kujdes. Të drejtuara nga qëllimi.",
+      "projects": [
+        {
+          "title": "Tradita Takon Digjitalen",
+          "category": "Websites",
+          "result": "Përvojë autentike digjitale",
+          "image": "/images/portfolio/tradita.png"
+        },
+        {
+          "title": "Përpjekje për Mikpritje Autentike",
+          "category": "Websites",
+          "result": "Më shumë kërkesa për qëndrim",
+          "image": "/images/portfolio/thethi.png"
+        },
+        {
+          "title": "Tregime Vizuale të Mikpritjes",
+          "category": "Media Sociale",
+          "result": "Estetikë e kuruar e rrjetit",
+          "image": "/images/portfolio/tradita_insta.jpg"
+        },
+        {
+          "title": "Shpirti i Maleve në Social Media",
+          "category": "Media Sociale",
+          "result": "Komunitet aktiv udhëtarësh",
+          "image": "/images/portfolio/thethi_insta.jpg"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Fjalë të Mira",
+      "subheading": "Çfarë thonë klientët tanë për punën me ne.",
+      "list": [
+        {
+          "quote": "DuoMedia nuk ndërtoi thjesht website-in tonë — ata kuptuan shpirtin tonë. Copy ndihet si ne, dizajni ndihet si shtëpi, dhe klientët tanë më në fund e kuptojnë kush jemi.",
+          "author": "Era K., Themeluese e 'Urban Brew'"
+        },
+        {
+          "quote": "Puna me ekipin e voice-over të DuoMedia transformoi videon tonë shpjeguese. Zëri u përputh në mënyrë të përsosur me tonin e butë dhe të besueshëm të markës sonë.",
+          "author": "Artan L., CEO i 'Tirana Tech'"
+        },
+        {
+          "quote": "Strategjia e tyre e mediave sociale jo vetëm që rriti numrat tanë — ndërtoi një komunitet që me të vërtetë kujdeset për atë që bëjmë.",
+          "author": "Sara M., Pronare e 'Alba Wellness'"
+        }
+      ]
+    },
+    "trustedBy": {
+      "heading": "Besuar nga marka që vlerësojnë autenticitetin"
+    },
+    "cta": {
+      "heading": "Gati për të krijuar me qëllim?",
+      "subheading": "Le të fillojmë një bisedë për projektin tënd të ardhshëm.",
+      "button": "Fillo një bisedë"
+    }
+  },
+  "about": {
+    "hero": {
+      "heading": "Ne besojmë në komunikimin që ndihet real.",
+      "subheading": "E thjeshtë. Njerëzore. E drejtuar nga qëllimi."
+    },
+    "story": {
+      "heading": "Si Filloi DuoMedia",
+      "content": "DuoMedia Solutions lindi nga një vëzhgim i thjeshtë: markat po bërtisnin më fort, por po thonin më pak.\n\nPamë biznese që po mbyten në zhurmë — duke ndjekur trend-e, duke postuar vazhdimisht, por duke humbur zërin e tyre autentik. Ndërkohë, freelancerë të talentuar punonin të izoluar, aftësitë e tyre të padukshme, potenciali i tyre i papërdorur.\n\nKështq ndërtuam diçka ndryshe.\n\nNjë kolektiv i kuruar ku freelancerë të drejtuar nga qëllimi bashkëpunojnë me marka që vlerësojnë autenticitetin mbi algoritmet. Ku çdo projekt fillon me dëgjim, dhe çdo rezultat mbart qëllim."
+    },
+    "values": {
+      "heading": "Çfarë na Drejton",
+      "list": [
+        {
+          "title": "Autenticiteti",
+          "description": "Jo një trend. Një themel. Nuk bëjmë 'zë brandi' — të ndihmojmë të gjesh zërin tënd të vërtetë."
+        },
+        {
+          "title": "Qëllimi",
+          "description": "Çdo fjalë, çdo pixel, çdo tingull ka një qëllim. Nëse nuk shton kuptim, nuk i përket."
+        },
+        {
+          "title": "Njerëzillëku",
+          "description": "Pas çdo marke janë njerëz të vërtetë. Ne komunikojmë me ta — jo drejt tyre."
+        },
+        {
+          "title": "Bashkëpunimi",
+          "description": "Puna më e mirë ndodh kur talentë të ndryshëm bashkohen me një qëllim të përbashkët."
+        }
+      ]
+    },
+    "vision": {
+      "heading": "Vizioni Ynë",
+      "content": "Një hapësirë dixhitale ku markat flasin më pak dhe thonë më shumë. Ku komunikimi ndihet si lidhje, jo zhurmë."
+    },
+    "team": {
+      "heading": "Njerëzit pas DuoMedia",
+      "members": [
+        {
+          "name": "Ana Krasniqi",
+          "role": "Themeluese & Drejtore Kreative",
+          "bio": "Ana beson se çdo markë ka një histori që vlen të tregohet. Me mbi 10+ vite në strategjinë e përmbajtjes, ajo sigurohet që çdo projekt të fillojë me pyetjen e duhur."
+        },
+        {
+          "name": "Blerim Hoxha",
+          "role": "Copywriter Kryesor",
+          "bio": "Fjalët janë fusha e lojës së Blerimit. Ai krijon tekst që jo vetëm informon — rezonon."
+        },
+        {
+          "name": "Dafina Zeka",
+          "role": "Krijuese Përmbajtjeje",
+          "bio": "Përmes lenteve të saj, Dafina kap momentet që i bëjnë markat njerëzore. Fotografi, video dhe tregim pamor."
+        },
+        {
+          "name": "Endrit Shala",
+          "role": "Drejtor Voice-Over",
+          "bio": "Endriti bashkon zërat me kuptimin. Nga reklamat te narrativat, ai gjen tingullin e duhur."
+        },
+        {
+          "name": "Gresa Berisha",
+          "role": "Dizajnere Web",
+          "bio": "Kod i pastër. Mesazh i qartë. Gresa ndërton uebsajte që funksionojnë bukur dhe ndihen edhe më mirë."
+        }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "heading": "Çfarë Bëjmë",
+      "subheading": "Pesë mënyra si ndihmojmë markat të komunikojnë me qartësi dhe qëllim."
+    },
+    "social": {
+      "title": "Social Media",
+      "tagline": "Pranë strategjike, e qëllimshme.",
+      "description": "Ne nuk besojmë në postim për hir të postimit. Çdo pjesë e përmbajtjes duhet të shërbejë për qëllimin më të madh të markës suaj.\n\nQasja jonë në social media fokusohet në ndërtimin e komuniteteve, jo thjesht në numërimin e ndjekësve. Krijime përmbajtje që nis biseda, ndan vlera dhe reflekton zërin tuaj autentik.",
+      "deliverables": [
+        "Content strategy aligned with your brand goals",
+        "Custom visual content (photos, graphics, short videos)",
+        "Community management that feels human",
+        "Analytics and insights to guide decisions",
+        "Paid social campaigns when they make sense"
+      ],
+      "useCase": {
+        "brand": "Një kafene lokale që do të rrisë komunitetin",
+        "approach": "Content që tregon historinë e kafenesë, njerëzit pas saj, momente të vogla të përditshme",
+        "result": "+40% engagement, komunitet besnik"
+      }
+    },
+    "copywriting": {
+      "title": "Copywriting",
+      "tagline": "Fjalë me qëllim.",
+      "description": "Teksti i shkëlqyer nuk bërtet. Ai i pëshpërit të vërtetat që audienca juaj i ndjen tashmë.\n\nNe shkruajmë fjalë që lidhen — qoftë uebfaqja juaj, newsletter, ose manifesti i markës.",
+      "deliverables": [
+        "Website copy that tells your story",
+        "Email newsletters people actually open",
+        "Blog posts that establish authority",
+        "Brand voice guidelines",
+        "Ad copy that converts without feeling salesy"
+      ]
+    },
+    "content": {
+      "title": "Content Creation",
+      "tagline": "Vizuale që flasin qetë — dhe qartë.",
+      "description": "Në një botë zhurme vizuale, ne krijojmë imazhe që ndalojnë scroll-in dhe mbeten në kujtesë.\n\nNga fotografia te videoja te dizajni vizual, përmbajtja jonë kap thelbin e markës suaj.",
+      "deliverables": [
+        "Brand photography sessions",
+        "Product and lifestyle shoots",
+        "Short-form video for social",
+        "Graphic design for digital and print",
+        "Visual brand guidelines"
+      ]
+    },
+    "voice": {
+      "title": "Voice-Over Projects",
+      "tagline": "Zëra në harmoni me kuptimin.",
+      "description": "Marka juaj ka një zë — literalisht. Ne ju ndihmojmë të gjeni të duhurin.\n\nRrjeti ynë i kuruar i artistëve të zërit sjell dekada përvojë në reklama, narrativa dhe zë marka.",
+      "deliverables": [
+        "Commercial voice-overs (TV, radio, online)",
+        "Narrative projects (audiobooks, documentaries)",
+        "E-learning and explainer videos",
+        "IVR and phone systems",
+        "Brand voice casting and direction"
+      ]
+    },
+    "web": {
+      "title": "Websites",
+      "tagline": "Strukturë e pastër. Mesazh i qartë.",
+      "description": "Uebsajti juaj duhet të ndihet si një hapësirë e qetë dhe e qartë — jo si një treg kaotik.\n\nNe dizajnojmë uebsajte që kanë prioritet qartësinë dhe përvojën e përdoruesit.",
+      "deliverables": [
+        "Custom website design (no templates)",
+        "Responsive development that works everywhere",
+        "Content strategy and copywriting",
+        "SEO optimization",
+        "Easy-to-update CMS"
+      ]
+    }
+  },
+  "values": {
+    "hero": {
+      "heading": "Për Çfarë Qëndrojmë",
+      "subheading": "Vlerat tona nuk janë fjalë në mur. Janë si punojmë, çdo ditë."
+    },
+    "authenticity": {
+      "title": "Autenticiteti",
+      "statement": "Jo një trend. Një themel.",
+      "description": "Kemi parë marka të ndjekin trende me vite. Ata tingëllojnë si gjithë të tjerët, postojnë si gjithë të tjerët, dhe pyesin veten pse askush nuk i mban mend.\n\nAutenticiteti nuk do të thotë të jesh i ndryshëm thjesht për hir të të qenit i ndryshëm. Është për të qenë i vërtetë me atë që jeni.",
+      "points": [
+        "Nuk përdorim template. Çdo projekt është unik.",
+        "Nuk shtiremi se jemi diçka që nuk jemi.",
+        "Ju ndihmojmë të gjeni zërin tuaj, jo të kopjoni dikë tjetër.",
+        "Besojmë lidhjen."
+      ]
+    },
+    "intention": {
+      "title": "Qëllimi",
+      "statement": "Çdo element ka një qëllim.",
+      "description": "Pse kjo fjalë? Pse ky imazh? Pse kjo ngjyrë? Nëse nuk mund t'u përgjigjemi këtyre pyetjeve, nuk i përket.\n\nQëllimi do të thotë dizajn med qëllim, jo aksidentalisht.",
+      "points": [
+        "Pyesim \"pse\" para \"si\"",
+        "Heqim çdo gjë që nuk shërben për mesazhin",
+        "Prioritarizojmë qartësinë",
+        "Matim impaktin"
+      ]
+    },
+    "humanity": {
+      "title": "Njerëzillëku",
+      "statement": "Njerëz të vërtetë. Lidhje e vërtetë.",
+      "description": "Pas çdo ekrani është një njeri. Me ndjenja. Me shpresa. Me vëmendje të kufizuar.\n\nFlasim me njerëzit, jo algoritmet.",
+      "points": [
+        "Përdorim gjuhë të vërtetë",
+        "Dizajnojmë për njerëzit",
+        "Gjithëpërfshirës",
+        "Ndërtojmë marrëdhënie"
+      ]
+    },
+    "collaboration": {
+      "title": "Bashkëpunimi",
+      "statement": "Së bashku, ne krijojmë më mirë.",
+      "description": "Miti i gjeniut të vetmuar është vetëm një mit. Puna më e mirë bëhet kur bashkohen talentë.",
+      "points": [
+        "Dëgjojmë",
+        "Mirëpresim feedback",
+        "Vlerësojmë kontribuesit",
+        "Jemi komunitet"
+      ]
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "heading": "Punë të Përzgjedhura",
+      "subheading": "Të ndërtuara me kujdes. Të drejtuara nga qëllimi.",
+      "visitWebsite": "Vizito faqen"
+    },
+    "filters": [
+      "Të gjitha",
+      "Websites",
+      "Social Media"
+    ],
+    "projects": [
+      {
+        "title": "Art me Dritë dhe Emocion",
+        "brand": "ProFocus",
+        "category": "Websites",
+        "image": "/images/portfolio/profocus.png",
+        "link": "https://profocus.it",
+        "description": "ProFocus është portofoli i Kastriot Halilit, një fotograf profesionist në Verona. Ne ndërtuam një uebsajt të nivelit të lartë, vizual, që shfaq artin e tij.",
+        "services": "Dizajn Web, UI/UX, SEO, Strategji Përmbajtjeje",
+        "results": [
+          "Pozicionim premium i brandit",
+          "Përvojë e qetë rezervimi"
+        ]
+      },
+      {
+        "title": "Lartësimi i Vizionit Arkitektonik",
+        "brand": "A+ Architecture Studio",
+        "category": "Websites",
+        "image": "/images/portfolio/a-architecture.png",
+        "link": "https://a-architecture.al/",
+        "description": "A+ Architecture Studio specializohet në projektim arkitektonik dhe dizajni të brendshëm. Ne krijuam një prezencë digjitale minimaliste që reflekton filozofinë e tyre.",
+        "services": "Zhvillim Web i Personalizuar, Prezantim Portofoli, SEO",
+        "results": [
+          "UI minimaliste dhe sofistikuar",
+          "Vizibilitet i rritur i projekteve"
+        ]
+      },
+      {
+        "title": "Tradita Takon Digjitalen",
+        "brand": "Hotel Tradita",
+        "category": "Websites",
+        "image": "/images/portfolio/tradita.png",
+        "link": "https://traditagt.com/",
+        "description": "Hotel Tradita Geg' & Tosk' në Shkodër është një perlë e trashëgimisë shqiptare. Ne zhvilluam një uebsajt që kap atmosferën autentike dhe lehtëson rezervimet direkte.",
+        "services": "Zhvillim Web, Mbështetje Shumëgjuhëshe, Integrim Rezervimesh",
+        "results": [
+          "Përvojë autentike digjitale",
+          "Rritje e rezervimeve direkte"
+        ]
+      },
+      {
+        "title": "Pastërtia e Natyrës për Shëndetin",
+        "brand": "Magnesium.al",
+        "category": "Websites",
+        "image": "/images/portfolio/magnesium.png",
+        "link": "https://magnesium.al/",
+        "description": "Magnesium.al është një platformë e dedikuar shëndetit që ofron magnez të pastër dhe këshilla shkencore për mirëqenien e trupit.",
+        "services": "Dizajn Web, E-commerce, Strategji Përmbajtjeje",
+        "results": [
+          "Prezantim profesional i produkteve",
+          "Eksperiencë përdoruesi e thjeshtë"
+        ]
+      },
+      {
+        "title": "Oazi juaj i Relaksit Natyror",
+        "brand": "Pishinat.com",
+        "category": "Websites",
+        "image": "/images/portfolio/pishinat.png",
+        "link": "https://pishinat.com",
+        "description": "Sorgiva realizon pishina natyrore unike, duke ndërthurur dizajnin modern me elementet e natyrës për një eksperiencë maksimale relaksi.",
+        "services": "Zhvillim i Personalizuar, Prezantim Vizual, SEO",
+        "results": [
+          "Dizajn luksoz dhe vizual",
+          "Kthim i lartë i investimit digjital"
+        ]
+      },
+      {
+        "title": "Një Hapësirë për Mendim dhe Ndjenjë",
+        "brand": "Hajde Se Flasim",
+        "category": "Websites",
+        "image": "/images/portfolio/hajdeseflasim.png",
+        "link": "https://hajdeseflasim.com",
+        "description": "Hajde Se Flasim është një platformë letrare dhe reflektuese ku ndjenjat, tregimet dhe bisedat njerëzore gjejnë zërin e tyre.",
+        "services": "Dizajn Blogu, UI/UX, Menaxhim Përmbajtjeje",
+        "results": [
+          "Platformë emotive dhe artistike",
+          "Rritje e angazhimit të lexuesve"
+        ]
+      },
+      {
+        "title": "Përpjekje për Mikpritje Autentike",
+        "brand": "Hotel Thethi",
+        "category": "Websites",
+        "image": "/images/portfolio/thethi.png",
+        "link": "https://hotelthethi.al/",
+        "description": "Hotel Thethi ofron një eksperiencë autentike alpine në zemër të Alpeve Shqiptare. Ne ndërtuam një prezencë digjitale që pasqyron bukurinë e natyrës dhe mikpritjen tradicionale.",
+        "services": "Zhvillim Web, SEO, Marketing Përmbajtjeje",
+        "results": [
+          "Prezantim i shkëlqyer i zonës",
+          "Më shumë kërkesa për qëndrim"
+        ]
+      },
+      {
+        "title": "Tregime Vizuale të Mikpritjes",
+        "brand": "Hotel Tradita Shkodër",
+        "category": "Social Media",
+        "image": "/images/portfolio/tradita_insta.jpg",
+        "link": "https://www.instagram.com/hotel_tradita_shkoder/",
+        "description": "Menaxhim i prezencës në Instagram për Hotel Tradita, duke shfaqur kulturën, ushqimin dhe atmosferën unike të Shkodrës përmes përmbajtjes vizuale të kuruar.",
+        "services": "Menaxhim i Mediave Sociale, Krijim Përmbajtjeje",
+        "results": [
+          "Rritje e angazhimit organik",
+          "Estetikë e kuruar e rrjetit"
+        ]
+      },
+      {
+        "title": "Shpirti i Maleve në Social Media",
+        "brand": "Hotel Thethi",
+        "category": "Social Media",
+        "image": "/images/portfolio/thethi_insta.jpg",
+        "link": "https://www.instagram.com/hotel_thethi/",
+        "description": "Ndërtimi i një komuniteti digjital për Hotel Thethi, duke ndarë bukuritë e egra të Alpeve Shqiptare dhe eksperiencat autentike të mysafirëve.",
+        "services": "Strategji Instagrami, Tregim Vizual",
+        "results": [
+          "Komunitet aktiv udhëtarësh",
+          "Vizibilitet i rritur ndërkombëtar"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "heading": "Le të punojmë me qëllim.",
+      "subheading": "Na tregoni për projektin tuaj. Ne do të dëgjojmë fillimisht."
+    },
+    "form": {
+      "name": "Emri",
+      "email": "Email",
+      "company": "Kompania",
+      "website": "Website",
+      "service": "Shërbimi me interes",
+      "services": [
+        "Social Media",
+        "Copywriting",
+        "Content Creation",
+        "Voice-Over",
+        "Website",
+        "Të shumta / Nuk jam i sigurt"
+      ],
+      "budget": "Buxheti",
+      "timeline": "Timeline i Projektit",
+      "timelines": [
+        "Menjëherë",
+        "1-3 muaj",
+        "3-6 muaj",
+        "Duke eksploruar"
+      ],
+      "message": "Mesazhi",
+      "submit": "Dërgo Mesazh",
+      "success": "Faleminderit! Do të kontaktojmë brenda 2 ditëve pune."
+    },
+    "info": {
+      "email": "duomediasolutions@gmail.com",
+      "instagram": "@duomediasolutions",
+      "response": "Përgjigjemi zakonisht brenda 24-48 orëve"
+    },
+    "faq": {
+      "heading": "Përgjigje të Shpejta",
+      "q1": "Si tarifoni?",
+      "a1": "Çdo projekt është unik. Ne ofrojmë të dyja: vlerësim për projekt dhe pagesë mujore.",
+      "q2": "Sa zgjat një projekt?",
+      "a2": "Varet nga fushëveprimi. Një uebsajt mund të marrë 4-8 javë. Strategjia mund të marrë 2-3 javë.",
+      "q3": "Punoni jashtë Kosovës?",
+      "a3": "Patjetër! Punojmë në distancë me klientë kudo në botë.",
+      "q4": "A punoni me udhëzime ekzistuese të markës?",
+      "a4": "Po. Ne mund të punojmë me to, ose të zhvillojmë të reja."
+    }
+  },
+  "footer": {
+    "tagline": "Krijo me Qëllim. Rrit me Pasion.",
+    "newsletterTitle": "Abonohu për këshilla mbi komunikimin autentik",
+    "subscribe": "Abonohu",
+    "copyright": "© DuoMedia Solutions 2026. Të gjitha të drejtat e rezervuara.",
+    "privacyLink": "Politika e Privatësisë"
+  },
+  "cookieConsent": {
+    "message": "Ne përdorim cookie për të përmirësuar përvojën tuaj në faqen tonë.",
+    "accept": "Prano",
+    "decline": "Refuzo",
+    "learnMore": "Mëso më shumë"
+  },
+  "privacyPolicy": {
+    "title": "Politika e Privatësisë",
+    "lastUpdated": "Përditësuar së fundmi: 11 Mars 2026",
+    "sections": [
+      {
+        "title": "Hyrje",
+        "content": "DuoMedia Solutions vlerëson privatësinë tuaj. Kjo politikë shpjegon se si ne mbledhim, përdorim dhe mbrojmë të dhënat tuaja personale kur vizitoni faqen tonë."
+      },
+      {
+        "title": "Të dhënat që mbledhim",
+        "content": "Ne mbledhim vetëm të dhënat që ju na jepni vullnetarisht përmes formave të kontaktit (emri, email, detajet e projektit) dhe të dhëna anonime teknike përmes cookie-ve."
+      },
+      {
+        "title": "Si i përdorim të dhënat",
+        "content": "Të dhënat tuaja përdoren ekskluzivisht për t'ju përgjigjur kërkesave tuaja dhe për të përmirësuar funksionalitetin e uebsajtit."
+      },
+      {
+        "title": "Cookie-t",
+        "content": "Faqja jonë përdor cookie teknike për të mbajtur mend preferencat tuaja (si gjuha) dhe cookie analitike anonime."
+      },
+      {
+        "title": "Të drejtat tuaja",
+        "content": "Sipas ligjit shqiptar për mbrojtjen e të dhënave personale dhe GDPR, ju keni të drejtë të kërkoni qasje, korrigjim ose fshirje të të dhënave tuaja personale."
+      },
+      {
+        "title": "Kontakt",
+        "content": "Për çdo pyetje rreth privatësisë, na kontaktoni në info@duomedia.al"
+      }
+    ]
+  }
+}
