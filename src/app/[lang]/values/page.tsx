@@ -1,6 +1,7 @@
 import { getDictionary } from "@/lib/i18n/getDictionary";
 import { SmoothReveal } from "@/app/components/ui/SmoothReveal";
 import { ParallaxSection } from "@/app/components/ui/ParallaxSection";
+import { ValuesBackground } from "@/app/components/layout/ValuesBackground";
 
 export default async function ValuesPage({
   params,
@@ -22,7 +23,7 @@ export default async function ValuesPage({
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="pt-32 pb-24 relative overflow-hidden bg-background">
-        <div className="absolute inset-0 shiny-crumpled-hologram pointer-events-none opacity-20" />
+        <ValuesBackground />
         <div className="container mx-auto px-4 relative z-10 text-center border-b border-border pb-16">
           <SmoothReveal delay={0.1} direction="down">
             <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight mb-6 max-w-4xl mx-auto text-balance">

@@ -1,6 +1,7 @@
 import { getDictionary } from "@/lib/i18n/getDictionary";
 import { SmoothReveal } from "@/app/components/ui/SmoothReveal";
 import { Hover3D } from "@/app/components/ui/Hover3D";
+import { AboutBackground } from "@/app/components/layout/AboutBackground";
 
 export default async function AboutPage({
   params,
@@ -15,7 +16,7 @@ export default async function AboutPage({
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="pt-32 pb-24 relative overflow-hidden bg-background">
-        <div className="absolute inset-0 shiny-crumpled-hologram pointer-events-none opacity-20" />
+        <AboutBackground />
         <div className="container mx-auto px-4 relative z-10 text-center">
           <SmoothReveal delay={0.1} direction="down">
             <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight mb-6 max-w-4xl mx-auto text-balance">

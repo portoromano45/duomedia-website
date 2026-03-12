@@ -4,6 +4,7 @@ import { useState, use } from "react";
 import { SmoothReveal } from "@/app/components/ui/SmoothReveal";
 import { Hover3D } from "@/app/components/ui/Hover3D";
 import { MagneticButton } from "@/app/components/ui/MagneticButton";
+import { PortfolioBackground } from "@/app/components/layout/PortfolioBackground";
 
 // Assuming we still need to load dict client-side or pass it down.
 // Since it's a client component, the best way in App Router is to pass dictionary as props.
@@ -24,7 +25,7 @@ export default function PortfolioClient({
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="pt-32 pb-24 relative overflow-hidden bg-background">
-        <div className="absolute inset-0 shiny-crumpled-hologram pointer-events-none opacity-20" />
+        <PortfolioBackground />
         <div className="container mx-auto px-4 relative z-10 text-center">
           <SmoothReveal delay={0.1} direction="down">
             <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight mb-6 max-w-4xl mx-auto text-balance">
