@@ -185,16 +185,22 @@
       "heading": "Cosa Facciamo",
       "subheading": "Cinque modi in cui aiutiamo i marchi a comunicare con chiarezza e intenzione."
     },
+    "deliverablesTitle": "Cosa offriamo",
+    "useCase": {
+      "caseLabel": "Caso:",
+      "approachLabel": "Approccio:",
+      "resultLabel": "Risultato:"
+    },
     "social": {
       "title": "Social Media",
       "tagline": "Presenza strategica e intenzionale.",
       "description": "Non crediamo nel pubblicare tanto per farlo. Ogni contenuto dovrebbe servire allo scopo più grande del tuo brand.\n\nIl nostro approccio si concentra sulla costruzione di comunità.",
       "deliverables": [
-        "Content strategy aligned with your brand goals",
-        "Custom visual content (photos, graphics, short videos)",
-        "Community management that feels human",
-        "Analytics and insights to guide decisions",
-        "Paid social campaigns when they make sense"
+        "Strategia dei contenuti allineata agli obiettivi del brand",
+        "Contenuti visuali personalizzati (foto, grafiche, brevi video)",
+        "Gestione della community che sembra umana",
+        "Analisi e approfondimenti per guidare le decisioni",
+        "Campagne social a pagamento mirate"
       ],
       "useCase": {
         "brand": "Caffetteria locale",
@@ -207,11 +213,11 @@
       "tagline": "Parole con scopo.",
       "description": "Copia eccellente non grida. Ti sussurra delle verità.\n\nScriviamo parole che uniscono.",
       "deliverables": [
-        "Website copy that tells your story",
-        "Email newsletters people actually open",
-        "Blog posts that establish authority",
-        "Brand voice guidelines",
-        "Ad copy that converts without feeling salesy"
+        "Testi per siti web che raccontano la tua storia",
+        "Newsletter via email che le persone aprono davvero",
+        "Post sul blog che stabiliscono autorità",
+        "Linee guida per la voce del brand",
+        "Testi pubblicitari che convertono senza forzature"
       ]
     },
     "content": {
@@ -219,11 +225,11 @@
       "tagline": "Visual che parlano piano — e chiaramente.",
       "description": "In un mondo di rumore creiamo immagini per te.",
       "deliverables": [
-        "Brand photography sessions",
-        "Product and lifestyle shoots",
-        "Short-form video for social",
-        "Graphic design for digital and print",
-        "Visual brand guidelines"
+        "Sessioni di fotografia del brand",
+        "Servizi fotografici di prodotti e lifestyle",
+        "Video brevi per i social",
+        "Graphic design per il digitale e la stampa",
+        "Linee guida visive del brand"
       ]
     },
     "voice": {
@@ -231,11 +237,11 @@
       "tagline": "Voci allineate con il significato.",
       "description": "Il tuo marchio ha una voce. Ti aiutiamo a trovarlo.",
       "deliverables": [
-        "Commercial voice-overs (TV, radio, online)",
-        "Narrative projects (audiobooks, documentaries)",
-        "E-learning and explainer videos",
-        "IVR and phone systems",
-        "Brand voice casting and direction"
+        "Voice-over commerciali (TV, radio, online)",
+        "Progetti narrativi (audiolibri, documentari)",
+        "E-learning e video esplicativi",
+        "Sistemi IVR e telefonici",
+        "Casting e direzione della voce del brand"
       ]
     },
     "web": {
@@ -243,11 +249,11 @@
       "tagline": "Struttura pulita. Messaggio chiaro.",
       "description": "Il tuo sito deve sembrare uno spazio calmo. Progettiamo e costruiamo",
       "deliverables": [
-        "Custom website design (no templates)",
-        "Responsive development that works everywhere",
-        "Content strategy and copywriting",
-        "SEO optimization",
-        "Easy-to-update CMS"
+        "Design di siti web personalizzati (nessun template)",
+        "Sviluppo responsive che funziona ovunque",
+        "Strategia dei contenuti e copywriting",
+        "Ottimizzazione SEO",
+        "CMS facile da aggiornare"
       ]
     }
   },

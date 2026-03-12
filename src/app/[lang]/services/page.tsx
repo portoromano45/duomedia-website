@@ -1,7 +1,16 @@
+import Image from "next/image";
 import { getDictionary } from "@/lib/i18n/getDictionary";
 import { SmoothReveal } from "@/app/components/ui/SmoothReveal";
 import { Hover3D } from "@/app/components/ui/Hover3D";
 import { ServicesBackground } from "@/app/components/layout/ServicesBackground";
+
+const serviceImages = [
+  "/images/services/social-media.jpg",
+  "/images/services/copywriting.jpg",
+  "/images/services/content-creation.jpg",
+  "/images/services/voice-over.jpg",
+  "/images/services/web-design.jpg",
+];
 
 export default async function ServicesPage({
   params,
@@ -10,7 +19,7 @@ export default async function ServicesPage({
 }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  const t = dict.services;
+  const t = dict.services as any;
 
   const services = [
     t.social,
@@ -19,6 +28,8 @@ export default async function ServicesPage({
     t.voice,
     t.web
   ];
+
+  const serviceEmojis = ["📱", "🖋️", "📸", "🎙️", "💻"];
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -50,7 +61,7 @@ export default async function ServicesPage({
                   {/* Text Content */}
                   <div className="flex-1 space-y-6">
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/20 text-accent-foreground text-2xl mb-2">
-                       {index === 0 ? "📱" : index === 1 ? "🖋️" : index === 2 ? "📸" : index === 3 ? "🎙️" : "💻"}
+                       {serviceEmojis[index]}
                     </div>
                     <h2 className="text-4xl font-serif font-bold text-foreground">{service.title}</h2>
                     <h3 className="text-xl font-medium text-accent-foreground italic">{service.tagline}</h3>
@@ -61,7 +72,9 @@ export default async function ServicesPage({
                     </div>
 
                     <div className="pt-6">
-                      <h4 className="text-sm uppercase tracking-wider font-semibold mb-4 text-foreground/60">What we deliver</h4>
+                      <h4 className="text-sm uppercase tracking-wider font-semibold mb-4 text-foreground/60">
+                        {t.deliverablesTitle}
+                      </h4>
                       <ul className="space-y-3">
                         {service.deliverables.map((item: string, i: number) => (
                           <li key={i} className="flex items-start gap-3 text-foreground/80">
@@ -74,21 +87,25 @@ export default async function ServicesPage({
 
                     {service.useCase && (
                       <div className="mt-8 p-6 bg-background rounded-2xl border border-border italic text-foreground/70">
-                        <p className="mb-2"><strong>Case:</strong> {service.useCase.brand}</p>
-                        <p className="mb-2"><strong>Approach:</strong> {service.useCase.approach}</p>
-                        <p className="text-accent-foreground font-medium"><strong>Result:</strong> {service.useCase.result}</p>
+                        <p className="mb-2"><strong>{t.useCase.caseLabel}</strong> {service.useCase.brand}</p>
+                        <p className="mb-2"><strong>{t.useCase.approachLabel}</strong> {service.useCase.approach}</p>
+                        <p className="text-accent-foreground font-medium"><strong>{t.useCase.resultLabel}</strong> {service.useCase.result}</p>
                       </div>
                     )}
                   </div>
 
-                  {/* Visual / Image Placeholder */}
+                  {/* Image */}
                   <div className="flex-1 w-full">
                     <Hover3D>
-                      <div className="relative aspect-[4/5] md:aspect-square rounded-3xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-border group">
-                        <div className="absolute inset-0 bg-primary-800/20 mix-blend-multiply group-hover:bg-primary-900/40 transition-colors duration-500 z-10" />
-                        <div className="absolute inset-0 flex items-center justify-center text-4xl opacity-50">
-                          Image Placeholder
-                        </div>
+                      <div className="relative aspect-[4/5] md:aspect-square rounded-3xl overflow-hidden border border-border group shadow-2xl">
+                        <Image
+                          src={serviceImages[index]}
+                          alt={service.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-700"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10" />
                       </div>
                     </Hover3D>
                   </div>

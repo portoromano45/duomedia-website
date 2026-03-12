@@ -185,16 +185,22 @@
       "heading": "Çfarë Bëjmë",
       "subheading": "Pesë mënyra si ndihmojmë markat të komunikojnë me qartësi dhe qëllim."
     },
+    "deliverablesTitle": "Çfarë ofrojmë",
+    "useCase": {
+      "caseLabel": "Rasti:",
+      "approachLabel": "Qasja:",
+      "resultLabel": "Rezultati:"
+    },
     "social": {
       "title": "Social Media",
       "tagline": "Pranë strategjike, e qëllimshme.",
       "description": "Ne nuk besojmë në postim për hir të postimit. Çdo pjesë e përmbajtjes duhet të shërbejë për qëllimin më të madh të markës suaj.\n\nQasja jonë në social media fokusohet në ndërtimin e komuniteteve, jo thjesht në numërimin e ndjekësve. Krijime përmbajtje që nis biseda, ndan vlera dhe reflekton zërin tuaj autentik.",
       "deliverables": [
-        "Content strategy aligned with your brand goals",
-        "Custom visual content (photos, graphics, short videos)",
-        "Community management that feels human",
-        "Analytics and insights to guide decisions",
-        "Paid social campaigns when they make sense"
+        "Strategji përmbajtjeje e lidhur me qëllimet e markës suaj",
+        "Përmbajtje vizuale e personalizuar (foto, grafika, video të shkurtra)",
+        "Menaxhim i komunitetit që ndihet njerëzor",
+        "Analitikë dhe njohuri për të udhëhequr vendimet",
+        "Fushatat sociale të paguara kur ato kanë sens"
       ],
       "useCase": {
         "brand": "Një kafene lokale që do të rrisë komunitetin",
@@ -207,11 +213,11 @@
       "tagline": "Fjalë me qëllim.",
       "description": "Teksti i shkëlqyer nuk bërtet. Ai i pëshpërit të vërtetat që audienca juaj i ndjen tashmë.\n\nNe shkruajmë fjalë që lidhen — qoftë uebfaqja juaj, newsletter, ose manifesti i markës.",
       "deliverables": [
-        "Website copy that tells your story",
-        "Email newsletters people actually open",
-        "Blog posts that establish authority",
-        "Brand voice guidelines",
-        "Ad copy that converts without feeling salesy"
+        "Tekste uebi që tregojnë historinë tuaj",
+        "Newsletter me email që njerëzit i hapin vërtet",
+        "Postime në blog që vendosin autoritet",
+        "Udhëzues për zërin e markës",
+        "Tekste reklamash që konvertojnë pa u ndjerë si shitje"
       ]
     },
     "content": {
@@ -219,11 +225,11 @@
       "tagline": "Vizuale që flasin qetë — dhe qartë.",
       "description": "Në një botë zhurme vizuale, ne krijojmë imazhe që ndalojnë scroll-in dhe mbeten në kujtesë.\n\nNga fotografia te videoja te dizajni vizual, përmbajtja jonë kap thelbin e markës suaj.",
       "deliverables": [
-        "Brand photography sessions",
-        "Product and lifestyle shoots",
-        "Short-form video for social",
-        "Graphic design for digital and print",
-        "Visual brand guidelines"
+        "Seanca fotografike për markën",
+        "Xhirime produktesh dhe lifestyle",
+        "Video të shkurtra për rrjetet sociale",
+        "Dizajn grafik për digjital dhe print",
+        "Udhëzues vizualë të markës"
       ]
     },
     "voice": {
@@ -231,11 +237,11 @@
       "tagline": "Zëra në harmoni me kuptimin.",
       "description": "Marka juaj ka një zë — literalisht. Ne ju ndihmojmë të gjeni të duhurin.\n\nRrjeti ynë i kuruar i artistëve të zërit sjell dekada përvojë në reklama, narrativa dhe zë marka.",
       "deliverables": [
-        "Commercial voice-overs (TV, radio, online)",
-        "Narrative projects (audiobooks, documentaries)",
-        "E-learning and explainer videos",
-        "IVR and phone systems",
-        "Brand voice casting and direction"
+        "Voice-over komercial (TV, radio, online)",
+        "Projekte narrative (audiobooks, dokumentarë)",
+        "Video e-learning dhe shpjeguese",
+        "Sisteme IVR dhe telefonike",
+        "Zgjedhja e zërit të markës dhe drejtimi"
       ]
     },
     "web": {
@@ -243,11 +249,11 @@
       "tagline": "Strukturë e pastër. Mesazh i qartë.",
       "description": "Uebsajti juaj duhet të ndihet si një hapësirë e qetë dhe e qartë — jo si një treg kaotik.\n\nNe dizajnojmë uebsajte që kanë prioritet qartësinë dhe përvojën e përdoruesit.",
       "deliverables": [
-        "Custom website design (no templates)",
-        "Responsive development that works everywhere",
-        "Content strategy and copywriting",
-        "SEO optimization",
-        "Easy-to-update CMS"
+        "Dizajn uebsajti i personalizuar (pa template)",
+        "Zhvillim responsive që punon kudo",
+        "Strategji përmbajtjeje dhe copywriting",
+        "Optimizim SEO",
+        "CMS i thjeshtë për t'u përditësuar"
       ]
     }
   },
