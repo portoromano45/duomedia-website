@@ -10,16 +10,16 @@
   "home": {
     "hero": {
       "headline": "Crea con Scopo. Cresci con Passione.",
-      "subheadline": "Progettiamo comunicazione digitale autentica — attraverso social, voce e web. Senza rumore. Solo significato.",
+      "subheadline": "Progettiamo comunicazione digitale autentica attraverso social, voce e web. Senza rumore. Solo significato.",
       "cta1": "Inizia una conversazione",
       "cta2": "Guarda i nostri lavori"
     },
     "whoWeAre": {
       "heading": "Siamo DuoMedia",
-      "p1": "DuoMedia Solutions non è un'agenzia. Siamo un collettivo curato di creativi indipendenti.",
-      "p2": "Non facciamo modelli predefiniti. Non aggiungiamo rumore.",
-      "p3": "Ascoltiamo. Comprendiamo. Creiamo significato.",
-      "p4": "Ogni progetto inizia con una conversazione — e cresce con intenzione.",
+      "p1": "DuoMedia Solutions non è un’agenzia. Siamo un collettivo curato di creativi  indipendenti.",
+      "p2": "Niente modelli, zero rumore. Solo significato.",
+      "p3": "Ascoltiamo. Comprendiamo. Creiamo.",
+      "p4": "Ogni progetto nasce da un dialogo e cresce con intenzione.",
       "stats": [
         "5+ anni di esperienza",
         "50+ progetti realizzati",
@@ -33,7 +33,7 @@
       "services": [
         {
           "title": "Social Media",
-          "description": "Presenza strategica e intenzionale. Non pubblichiamo e basta — costruiamo comunità.",
+          "description": "Presenza strategica e intenzionale. Non pubblichiamo e basta, ma costruiamo comunità.",
           "details": "Content strategy, community management, analytics, paid ads"
         },
         {
@@ -288,23 +288,13 @@
       "title": "Umanità",
       "statement": "Persone reali. Connessione.",
       "description": "Le persone.",
-      "points": [
-        "Linguaggio reale",
-        "Design reale",
-        "Inclusione",
-        "Relazioni"
-      ]
+      "points": ["Linguaggio reale", "Design reale", "Inclusione", "Relazioni"]
     },
     "collaboration": {
       "title": "Collaborazione",
       "statement": "Insieme.",
       "description": "La collaborazione è d'oro.",
-      "points": [
-        "Noi",
-        "Si",
-        "Sempre",
-        "Sempre"
-      ]
+      "points": ["Noi", "Si", "Sempre", "Sempre"]
     }
   },
   "portfolio": {
@@ -313,11 +303,7 @@
       "subheading": "Costruiti con cura. Guidati dallo scopo.",
       "visitWebsite": "Visita il sito"
     },
-    "filters": [
-      "Tutti",
-      "Websites",
-      "Social Media"
-    ],
+    "filters": ["Tutti", "Websites", "Social Media"],
     "projects": [
       {
         "title": "Scrivere Luce ed Emozioni",
@@ -459,12 +445,7 @@
       ],
       "budget": "Fascia di Budget",
       "timeline": "Timeline",
-      "timelines": [
-        "Subito",
-        "1-3 mesi",
-        "3-6 mesi",
-        "Solo esplorando"
-      ],
+      "timelines": ["Subito", "1-3 mesi", "3-6 mesi", "Solo esplorando"],
       "message": "Messaggio",
       "submit": "Invia Messaggio",
       "success": "Grazie! Ti contatteremo entro 2 giorni lavorativi."

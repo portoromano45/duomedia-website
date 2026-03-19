@@ -10,16 +10,16 @@
   "home": {
     "hero": {
       "headline": "Krijo me Qëllim. Rrit me Pasion.",
-      "subheadline": "Projektojmë komunikim autentik digjital — në social, zë dhe web. Pa zhurmë. Vetëm kuptim.",
+      "subheadline": "Projektojmë prezencën tuaj në rrjeton social, zë dhe web. Pa zhurmë. Vetëm domëthënie.",
       "cta1": "Fillo një bisedë",
       "cta2": "Shiko punët tona"
     },
     "whoWeAre": {
       "heading": "Ne jemi DuoMedia",
-      "p1": "DuoMedia Solutions nuk është një agjenci. Ne jemi një kolektiv i kuruar i kreativëve të pavarur.",
-      "p2": "Nuk bëjmë template të gatshëm. Nuk shtojmë zhurmë.",
+      "p1": "DuoMedia Solutions nuk është agjenci. Jemi një kolektiv i kuruar krijuesish të pavarur.",
+      "p2": "Pa modele, pa zhurmë. Vetëm domëthënie.",
       "p3": "Dëgjojmë. Kuptojmë. Krijojmë kuptim.",
-      "p4": "Çdo projekt fillon me një bisedë — dhe rritet me qëllim.",
+      "p4": "Çdo projekt nis me një bisedë që rritet me qëllim.",
       "stats": [
         "5+ vite eksperiencë",
         "50+ projekte të realizuara",
@@ -33,7 +33,7 @@
       "services": [
         {
           "title": "Social Media",
-          "description": "Pranë strategjike, e qëllimshme. Nuk postojmë thjesht — ndërtojmë komunitete.",
+          "description": "Prani strategjike, e qëllimshme. Nuk postojmë thjesht, por ndërtojmë komunitete.",
           "details": "Strategji përmbajtjeje, menaxhim komuniteti, analitikë, reklama të paguara"
         },
         {
@@ -313,11 +313,7 @@
       "subheading": "Të ndërtuara me kujdes. Të drejtuara nga qëllimi.",
       "visitWebsite": "Vizito faqen"
     },
-    "filters": [
-      "Të gjitha",
-      "Websites",
-      "Social Media"
-    ],
+    "filters": ["Të gjitha", "Websites", "Social Media"],
     "projects": [
       {
         "title": "Art me Dritë dhe Emocion",
@@ -327,10 +323,7 @@
         "link": "https://profocus.it",
         "description": "ProFocus është portofoli i Kastriot Halilit, një fotograf profesionist në Verona. Ne ndërtuam një uebsajt të nivelit të lartë, vizual, që shfaq artin e tij.",
         "services": "Dizajn Web, UI/UX, SEO, Strategji Përmbajtjeje",
-        "results": [
-          "Pozicionim premium i brandit",
-          "Përvojë e qetë rezervimi"
-        ]
+        "results": ["Pozicionim premium i brandit", "Përvojë e qetë rezervimi"]
       },
       {
         "title": "Lartësimi i Vizionit Arkitektonik",
@@ -459,12 +452,7 @@
       ],
       "budget": "Buxheti",
       "timeline": "Timeline i Projektit",
-      "timelines": [
-        "Menjëherë",
-        "1-3 muaj",
-        "3-6 muaj",
-        "Duke eksploruar"
-      ],
+      "timelines": ["Menjëherë", "1-3 muaj", "3-6 muaj", "Duke eksploruar"],
       "message": "Mesazhi",
       "submit": "Dërgo Mesazh",
       "success": "Faleminderit! Do të kontaktojmë brenda 2 ditëve pune."
